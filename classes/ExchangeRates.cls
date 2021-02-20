@@ -6,7 +6,8 @@ public class ExchangeRates {
 
     //                                                                          
     // Checks if the data is old and gets new data from an external web service 
-    // through a callout. Calls getCachedRates() to manage the cache.           
+    // through a callout. Calls getCachedRates() to manage the cache. 
+    //TEST          
     //                                                                          
     public void init() {
         // Let's query the latest data from Salesforce
